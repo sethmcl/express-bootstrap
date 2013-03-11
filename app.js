@@ -44,9 +44,9 @@ function App( args ) {
     });
 
     // static resources
-    app.use('/js', express.static(homeFolder + '/js'));
-    app.use('/css', express.static(homeFolder + '/css'));
-    app.use('/img', express.static(homeFolder + '/img'));
+    app.use('/js', express.static(homeFolder + '/static/js'));
+    app.use('/css', express.static(homeFolder + '/static/css'));
+    app.use('/img', express.static(homeFolder + '/static/img'));
 
     // port
     port = parseInt(process.argv[2], 10) || PORT;

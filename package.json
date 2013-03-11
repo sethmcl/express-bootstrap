@@ -6,13 +6,13 @@
   "version"           : "0.0.1",
   "keywords"          : [ "" ],
   "engines"           : {
-    "node"            : ">=0.6.0"
+    "node"            : ">=0.8.0"
   },
   "bin"               : {
-    "legion"          : "./bin/app"
+    "app"          : "./bin/app"
   },
   "licenses"          : [{
-    "type"            : "Apache"
+    "type"            : "None"
   }],
   "dependencies"      : {
     "express"         : ">=2.5.2",
